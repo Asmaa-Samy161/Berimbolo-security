@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(55, 55, 156);
+    font-size: larger;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img{
+    width: 7%;
+}
+.container nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.info img{
+    border-radius: 30%;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+}
+.service{
+    text-align: center;
+}
+.services img{
+    border-radius: 50%;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    text-align: center;
+    color: white;
+}
+.about button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 8px 12px;
+}
+.icon{
+    margin-bottom:30px ;
+}
+.icon i{
+    padding: 20px;
+}
+.contact-us{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: White;
+}
+.contact h1,p{
+    font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input, textarea{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+form button{
+    width:50%;
+    background-color: dodgerblue;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+@media (max-width:700px){
+    body{
+        font-size: small;
+    }
+    .container nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .about-us img{
+        width: 50%;
+        justify-content: center;
+    }
+    .contact-us{
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: White;
+    }
+
+}
